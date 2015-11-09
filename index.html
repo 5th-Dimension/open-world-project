@@ -1,73 +1,98 @@
 <!DOCTYPE html>
 <html>
-
   <head>
     <meta charset='utf-8' />
+    <title>humanix - Open World Project</title>
     <meta http-equiv="X-UA-Compatible" content="chrome=1" />
     <meta name="description" content="Open World Project : Willkommen in einer offenen und natürlicheren Welt." />
 
     <link rel="stylesheet" type="text/css" media="screen" href="stylesheets/stylesheet.css">
 
-    <title>humanix - Open World Project</title>
+    <!-- CSS
+    –––––––––––––––––––––––––––––––––––––––––––––––––– -->
+    <link rel="stylesheet" href="stylesheets/normalize.css">
+    <link rel="stylesheet" href="stylesheets/skeleton.css">
+    <link rel="stylesheet" href="stylesheets/custom.css">
+
+    <script src="https://ajax.googleapis.com/ajax/libs/mootools/1.5.2/mootools.js"></script>
+    <script src="./javascripts/app.js"></script>
+    <script type="text/javascript">
+      window.addEvent('domready', function(){
+        new docknav();
+      });
+    </script>
   </head>
 
   <body>
-
-    <!-- HEADER -->
-    <div id="header_wrap" class="outer">
-        <header class="inner">
-          <a id="forkme_banner" href="https://github.com/5th-Dimensions/open-world-project">View on GitHub</a>
-
-          <h1 id="project_title">humanix</h1>
-          <h2 id="project_tagline">Open World Project</h2>
-
-        </header>
+    <!-- Header
+    ================================================== -->
+    <div id="header">
+      <div class="container">
+        <div class="three columns">
+          <div class="logo">
+            <h1>humanix</h1>
+          </div>
+        </div>
+        <div class="nine columns">
+          <div class="navbar-spacer"></div>
+          <nav class="navbar">
+            <ul>
+              <li><a href="#">Credits</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+      <div id="description" class="container">
+        <h4>Open World Project</h4>
+        <a class="button button-primary" href="https://github.com/5th-Dimension/open-world-project">Auf GitHub ansehen</a>
+      </div>
     </div>
 
-    <!-- MAIN CONTENT -->
-    <div id="main_content_wrap" class="outer">
-      <section id="main_content" class="inner">
-        <h3>
-<a name="welcome-to-github-pages" class="anchor" href="#welcome-to-github-pages"><span class="octicon octicon-link"></span></a>Willkommen in einer offenen und natürlicheren Welt.</h3>
+    <!-- Wrapper
+    ================================================== -->
+    <div class="wrapper">
+      <div class="container">
+        <!-- columns should be the immediate child of a .row -->
+        <div class="row">
+          <div class="twelve column">
+            <h3>Willkommen in einer offenen und natürlicheren Welt.</h3>
+            <p>Ivan Iantschev, Ivan Ilić, Mike Kunstek -> WIR!<br>Dies sind die Namen der Propheten unserer Zeit. Dieser Vertrag manifestiert die Idee - des Utopia unserer Seelen. Wir, die Kinder unserem menschlichen und bewussten Willen halten hiermit etwas Bedeutsames fest. Unser Leben ist bedeutsam für das dass Wir die Welt verändern.<br><br>Wir stehen für das Bewusstsein und die Wahrheit unserer Welt. Botschafter, Philosoph und was auch immer die Welt in uns sehen. Wir, Du & Ich leben positiv und es gibt keine Ausreden für Unser fundamentales Bewusstsein und Unsere Energie. Wir sind verpflichtet in jedem Moment unseres Lebens die Resonanz der Freude als Zentrum unseres Geistes nahezulegen. Mittelpunkt unserer selbst ist Liebe. Wir kämpfen für die Regeneration unserer Welt.</p>
 
-<p>Ivan Iantschev, Ivan Ilić, Mike Kunstek -> WIR!<br>Dies sind die Namen der Propheten unserer Zeit. Dieser Vertrag manifestiert die Idee - des Utopia unserer Seelen. Wir, die Kinder unserem menschlichen und bewussten Willen halten hiermit etwas Bedeutsames fest. Unser Leben ist bedeutsam für das dass Wir die Welt verändern.<br><br>Wir stehen für das Bewusstsein und die Wahrheit unserer Welt. Botschafter, Philosoph und was auch immer die Welt in uns sehen. Wir, Du & Ich leben positiv und es gibt keine Ausreden für Unser fundamentales Bewusstsein und Unsere Energie. Wir sind verpflichtet in jedem Moment unseres Lebens die Resonanz der Freude als Zentrum unseres Geistes nahezulegen. Mittelpunkt unserer selbst ist Liebe. Wir kämpfen für die Regeneration unserer Welt.</p>
+            <h3 style="font-size: 0.8em;">DAS KLEINGEDRUCKTE (falls es nicht zur absoluten Erfüllung kommt):</h3>
+            <p>Wer diesen Vertrag nicht einhält hat die Welt auf dem Gewissen. Schuldgefühle und Erfurcht soll dich als Mensch ergreifen, wie auch Leid zugeteilt werden. Gleichgesinnte zu erschaffen ist das Ultimatum wenn der Vertrag kurzzeitig nicht eingehalten werden kann. Zumindest die Struktur eines Dreiecks zu erhalten. Erschaffe.</p>
 
-<h3 style="font-size: 0.8em;">
-<a name="designer-templates" class="anchor" href="#das-kleingedruckte"><span class="octicon octicon-link"></span></a>DAS KLEINGEDRUCKTE (falls es nicht zur absoluten Erfüllung kommt):</h3>
+            <h3>Mitwirkende:</h3>
+            <p>&copy; 2014-2015:<br>Ivan Iantschev (<a href="https://github.com/BeeetleJuicei" class="user-mention">@BeeetleJuicei</a>), Ivan Ilić (<a href="https://github.com/MrIsaacs" class="user-mention">@MrIsaacs</a>) und Mike Kunstek (<a href="https://github.com/Helianthusannus" class="user-mention">@Helianthusannus</a>)</p>
 
-<p>Wer diesen Vertrag nicht einhält hat die Welt auf dem Gewissen. Schuldgefühle und Erfurcht soll dich als Mensch ergreifen, wie auch Leid zugeteilt werden. Gleichgesinnte zu erschaffen ist das Ultimatum wenn der Vertrag kurzzeitig nicht eingehalten werden kann. Zumindest die Struktur eines Dreiecks zu erhalten. Erschaffe.</p>
-
-<h3>
-<a name="authors-and-contributors" class="anchor" href="#authors-and-contributors"><span class="octicon octicon-link"></span></a>Mitwirkende:</h3>
-
-<p>&copy; 2014-2015:<br>Ivan Iantschev (<a href="https://github.com/BeeetleJuicei" class="user-mention">@BeeetleJuicei</a>), Ivan Ilić (<a href="https://github.com/MrIsaacs" class="user-mention">@MrIsaacs</a>) und Mike Kunstek (<a href="https://github.com/Helianthusannus" class="user-mention">@Helianthusannus</a>)</p>
-
-<div id="disqus_thread"></div>
-<script>
-    var disqus_config = function () {
-        this.page.url = "http://5th-dimension.github.io/open-world-project/";
-        this.page.identifier = 0;
-    };
-    (function() {  // DON'T EDIT BELOW THIS LINE
-        var d = document, s = d.createElement('script');
-
-        s.src = '//humanix.disqus.com/embed.js';
-
-        s.setAttribute('data-timestamp', +new Date());
-        (d.head || d.body).appendChild(s);
-    })();
-</script>
-<noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
-
-      </section>
+            <div id="disqus_thread"></div>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <!-- FOOTER  -->
-    <div id="footer_wrap" class="outer">
-      <footer class="inner">
+    <!-- Footer
+    ================================================== -->
+    <div id="footer">
+      <div class="container">
         <p class="copyright"><a href="http://5th-dimension.github.io/open-world-project/">Open World Project</a> maintained by <a href="https://github.com/5th-Dimension">humanix</a> and published with <a href="http://pages.github.com">GitHub Pages</a>.</p>
-      </footer>
+      </div>
     </div>
+
+    <script>
+        var disqus_config = function () {
+            this.page.url = "http://5th-dimension.github.io/open-world-project/";
+            this.page.identifier = 0;
+        };
+        (function() {  // DON'T EDIT BELOW THIS LINE
+            var d = document, s = d.createElement('script');
+
+            s.src = '//humanix.disqus.com/embed.js';
+
+            s.setAttribute('data-timestamp', +new Date());
+            (d.head || d.body).appendChild(s);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript" rel="nofollow">comments powered by Disqus.</a></noscript>
 
     <script id="dsq-count-scr" src="//humanix.disqus.com/count.js" async></script>
   </body>
