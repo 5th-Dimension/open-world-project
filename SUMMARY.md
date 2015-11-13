@@ -1,5 +1,5 @@
 # Summary
 
-* [Einf&uuml;hrung](README.md)
+* [Einführung](README.md)
 * Kapitel 1
 
