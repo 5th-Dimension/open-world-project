@@ -1,38 +1,4 @@
-open-world-project
-==================
+Ivan Iantschev, Ivan Ilić, Mike Kunstek -> WIR!<br>
+Dies sind die Namen der Propheten unserer Zeit. Dieser Vertrag manifestiert die Idee - des Utopia unserer Seelen. Wir, die Kinder unserem menschlichen und bewussten Willen halten hiermit etwas Bedeutsames fest. Unser Leben ist bedeutsam für das dass Wir die Welt verändern.
 
-Visit humanix's [Open World Project](http://5th-dimension.github.io/open-world-project/)
-
-Configuration instructions:
-
-------------------
-Installation instructions:
-
-------------------
-Operating instructions:
-
-------------------
-File manifest:
-
-------------------
-Copyright and licensing information:
-
-------------------
-Distributor/programmer contact information:
-
-------------------
-Known bugs:
-
-------------------
-Troubleshooting:
-
-------------------
-Credits and acknowledgments:
-
-------------------
-Changelog:
-
-------------------
-News section:
-
-==================
+Wir stehen für das Bewusstsein und die Wahrheit unserer Welt. Botschafter, Philosoph und was auch immer die Welt in uns sehen. Wir, Du & Ich leben positiv und es gibt keine Ausreden für Unser fundamentales Bewusstsein und Unsere Energie. Wir sind verpflichtet in jedem Moment unseres Lebens die Resonanz der Freude als Zentrum unseres Geistes nahezulegen. Mittelpunkt unserer selbst ist Liebe. Wir kämpfen für die Regeneration unserer Welt.
