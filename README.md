@@ -9,7 +9,10 @@ Configuration instructions:
 Installation instructions:
 
 ------------------
-Operating instructions:
+###Operating instructions:
+Use branch `gh-pages` for website development.<br>
+Use branch `book-of-prophets-de` for contributing to german version.<br>
+Use branch `master` for main humanix developmen.<br>
 
 ------------------
 File manifest:
